@@ -4,3 +4,7 @@
 2. **Handle one or both invalid inputs**: If the input is invalid, it should be treated as `"0"`.
 3. **Handle empty string inputs**: An empty string should be treated as `"0"`.
 4. **Handle very large numbers**: The sum should handle large numbers as string inputs.
+
+## Steps:
+- First, I wrote a failing test for valid number input.
+- 
