@@ -12,3 +12,10 @@ class TestStringSum(unittest.TestCase):
             self.assertEqual(string_calculator("", "3"), "3")
             self.assertEqual(string_calculator("2", ""), "2")
             self.assertEqual(string_calculator("", ""), "0")
+
+    def test_large_numbers(self):
+        self.assertEqual(string_calculator("12345678901234567890", "98765432109876543210"), "111111111011111111100")
+
+
+if __name__ == '__main__':
+    unittest.main()
